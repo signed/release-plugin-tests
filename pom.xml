@@ -22,8 +22,8 @@
 
     <scm>
         <url>scm:git:git@github.com:signed/release-plugin-tests.git</url>
-        <connection>scm:git:git@github.com:signed/release-plugin-tests.git</connection>
-        <developerConnection>scm:git:git@github.com:signed/release-plugin-tests.git</developerConnection>
+        <connection>scm:git:ssh://git@github.com:signed/release-plugin-tests.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:signed/release-plugin-tests.git</developerConnection>
     </scm>
 
     <properties>
