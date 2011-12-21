@@ -50,14 +50,6 @@
                     <localCheckout>true</localCheckout>
                     <pushChanges>false</pushChanges>
                 </configuration>
-
-                <!--<dependencies>-->
-                    <!--<dependency>-->
-                        <!--<groupId>org.apache.maven.scm</groupId>-->
-                        <!--<artifactId>maven-scm-provider-gitexe</artifactId>-->
-                        <!--<version>1.6</version>-->
-                    <!--</dependency>-->
-                <!--</dependencies>-->
             </plugin>
         </plugins>
 
@@ -66,8 +58,8 @@
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <configuration>
-                        <source>1.5</source>
-                        <target>1.5</target>
+                        <source>1.6</source>
+                        <target>1.6</target>
                     </configuration>
                 </plugin>
             </plugins>
