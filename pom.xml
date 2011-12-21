@@ -3,7 +3,7 @@
 
     <groupId>com.github.signed.maven</groupId>
     <artifactId>release-plugin-tests</artifactId>
-    <version>1.3</version>
+    <version>1.4-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>release-plugin-tests</name>
