@@ -21,8 +21,8 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:git@github.com:signed/release-plugin-tests.git</connection>
         <url>scm:git:git@github.com:signed/release-plugin-tests.git</url>
+        <connection>scm:git:git@github.com:signed/release-plugin-tests.git</connection>
         <developerConnection>scm:git:git@github.com:signed/release-plugin-tests.git</developerConnection>
     </scm>
 
