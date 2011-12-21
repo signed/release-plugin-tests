@@ -9,6 +9,17 @@
     <name>release-plugin-tests</name>
     <url>http://maven.apache.org</url>
 
+    <distributionManagement>
+        <repository>
+            <id>release</id>
+            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot</id>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <scm>
         <connection>scm:git:git@github.com:signed/release-plugin-tests.git</connection>
         <url>scm:git:git@github.com:signed/release-plugin-tests.git</url>
