@@ -16,6 +16,12 @@
             <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
+
+    <scm>
+        <url>scm:git:git@github.com:signed/release-plugin-tests.git</url>
+        <connection>scm:git:ssh://git@github.com:signed/release-plugin-tests.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:signed/release-plugin-tests.git</developerConnection>
+    </scm>
     
     <modules>
       <module>parent</module>
