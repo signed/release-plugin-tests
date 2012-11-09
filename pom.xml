@@ -5,6 +5,17 @@
     <artifactId>release-plugin-tests</artifactId>
     <version>1.6-SNAPSHOT</version>
     <packaging>pom</packaging>
+
+    <distributionManagement>
+        <repository>
+            <id>release-repository</id>
+            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshot-repository</id>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
     
     <modules>
       <module>parent</module>
