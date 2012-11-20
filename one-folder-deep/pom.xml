@@ -3,7 +3,7 @@
 
     <groupId>com.github.signed.maven</groupId>
     <artifactId>release-plugin-tests</artifactId>
-    <version>1.6-SNAPSHOT</version>
+    <version>1.6</version>
     <packaging>jar</packaging>
 
     <distributionManagement>
@@ -21,7 +21,8 @@
         <url>scm:git:git@github.com:signed/release-plugin-tests.git</url>
         <connection>scm:git:ssh://git@github.com:signed/release-plugin-tests.git</connection>
         <developerConnection>scm:git:ssh://git@github.com:signed/release-plugin-tests.git</developerConnection>
-    </scm>
+      <tag>one-folder-deep-1.6</tag>
+  </scm>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
