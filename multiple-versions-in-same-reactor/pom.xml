@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.signed.maven.release</groupId>
-    <artifactId>release-plugin-tests</artifactId>
+    <artifactId>multiple-versions-in-same-reactor</artifactId>
     <version>1.8-SNAPSHOT</version>
     <packaging>pom</packaging>
 
